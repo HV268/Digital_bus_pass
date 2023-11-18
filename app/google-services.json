@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1083383524542",
+    "project_id": "digitalbuspass-1e714",
+    "storage_bucket": "digitalbuspass-1e714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083383524542:android:5c5e35e4861af41bbd82ef",
+        "android_client_info": {
+          "package_name": "com.example.digital_bus_pass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1zk5nCCiG7FDAKax9tLbL_rNzRCCe9Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

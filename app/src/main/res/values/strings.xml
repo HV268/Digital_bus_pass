@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Digital_Bus_Pass</string>
+    <string name="next"><![CDATA[Next>>]]></string>
+    <string name="digital">DIGITAL BUS PASS</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="Rpassword">password</string>
+    <string name="confirmpassword">confirmpassword</string>
+    <string name="register">REGISTER</string>
+    <string name="i_agree_to_the_terms_of_the_user">I agree to the Terms of the User</string>
+    <string name="choose_an_options">Choose an Options</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="back">Back</string>
+    <string name="only_1_month">only 1 Month</string>
+    <string name="back1">BACK</string>
+    <string name="selected_item" />
+    <string name="to">To</string>
+    <string name="proceed_to_payment">PROCEED TO PAYMENT</string>
+    <string name="enter_amount_to_be_paid">Enter Amount to be paid</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="new_pass">NEW PASS</string>
+    <string name="back3">Back</string>
+    <string name="optional">optional</string>
+    <string name="type_your_email">Type Your Email</string>
+    <string name="retype_password">Retype-Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="typemail">Type Your Email</string>
+    <string name="profile_registration">PROFILE REGISTRATION</string>
+    <string name="enter_your_names">Enter Your Name</string>
+    <string name="enter_your_age">Enter Your Age</string>
+
+
+</resources>

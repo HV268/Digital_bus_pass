@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupimage"
+    tools:context=".loginafter">
+
+
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="253dp"
+        android:layout_height="65dp"
+        android:background="@color/design_default_color_background"
+        android:text="@string/choose_an_options"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/cureentpass"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="62dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginRight="288dp"
+
+        android:background="@color/design_default_color_background"
+
+        android:onClick="back"
+        android:text="@string/back"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <ImageButton
+        android:id="@+id/cureentpass"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/currentpass"
+        android:onClick="cureentpass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <ImageButton
+        android:id="@+id/newpass"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="newpass"
+        android:src="@drawable/newpass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cureentpass"
+        app:layout_constraintVertical_bias="0.371" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
